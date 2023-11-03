@@ -1,6 +1,3 @@
-
-Here's your text translated into English:
-
 This project utilizes multiple frameworks, with React being the primary one. You will first need to install node.js, followed by React.
 You can follow the link below to install node.js. Generally, installing the LTS version should suffice:
 https://nodejs.org/en
