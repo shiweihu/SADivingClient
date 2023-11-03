@@ -1,46 +1,51 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Here's your text translated into English:
 
-## Available Scripts
+This project utilizes multiple frameworks, with React being the primary one. You will first need to install node.js, followed by React.
+You can follow the link below to install node.js. Generally, installing the LTS version should suffice:
+https://nodejs.org/en
 
-In the project directory, you can run:
+To fully set up React, simply execute the command:
 
-### `npm start`
+npm install -g create-react-app
+For a comprehensive guide on React, you can visit the following link to get more details:
+https://create-react-app.dev/docs/getting-started
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+After installing React, you'll also need to set up Firebase and Material UI.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+To integrate Firebase into your project, visit the link below for guidance:
+https://firebase.google.com/docs/web/setup?authuser=0
 
-### `npm test`
+Next, to install Material UI, follow the instructions on this page:
+https://mui.com/material-ui/getting-started/installation/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+You don't need to install all components of Material UI. Simply run the following commands:
 
-### `npm run build`
+npm install @mui/material @emotion/react @emotion/styled
+npm install @fontsource/roboto
+npm install @mui/icons-material
+npm install @mui/x-data-grid
+npm install @mui/x-charts
+Once you've executed the above five commands, you should have all the necessary Material UI components installed.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project also makes use of some other tools, such as Google Map and the stormglass API.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+You should visit https://console.cloud.google.com/. Here, create a new project. This project should integrate the Google Map API and services. Once set up, you will receive a Google Map key. Ensure you configure this key for web access.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+After obtaining the key, you'll need to replace the original key with this new one.
 
-### `npm run eject`
+also please visit https://stormglass.io/
+create a account,and choose free plan. you will get a key for weather API.
+![image](https://github.com/shiweihu/SADivingClient/assets/13948493/c8395a20-d8da-4953-9e28-5eef174dbf5c)
+Replace the original key with your key
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+finally,you will also create a project in firebase if you follow the instruction.
+you may get something in your project like:
+![image](https://github.com/shiweihu/SADivingClient/assets/13948493/1855dd3f-4b46-419b-ad64-fcbfa36a9819)
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+replace the original firebaseConfig with your firebaseConfig.
+![image](https://github.com/shiweihu/SADivingClient/assets/13948493/12e10150-8b0b-4845-a75c-4d1ce88bb082)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
