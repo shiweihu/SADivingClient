@@ -5,6 +5,7 @@ https://nodejs.org/en
 To fully set up React, simply execute the command:
 
 npm install -g create-react-app
+
 For a comprehensive guide on React, you can visit the following link to get more details:
 https://create-react-app.dev/docs/getting-started
 
@@ -19,10 +20,15 @@ https://mui.com/material-ui/getting-started/installation/
 You don't need to install all components of Material UI. Simply run the following commands:
 
 npm install @mui/material @emotion/react @emotion/styled
+
 npm install @fontsource/roboto
+
 npm install @mui/icons-material
+
 npm install @mui/x-data-grid
+
 npm install @mui/x-charts
+
 Once you've executed the above five commands, you should have all the necessary Material UI components installed.
 
 This project also makes use of some other tools, such as Google Map and the stormglass API.
